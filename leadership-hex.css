@@ -1,0 +1,65 @@
+#main {
+    background-image: url('hex-bg.png');
+    width: 800px;
+    height: 800px;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    position: relative;
+    padding: 50px;
+    background-position: center;
+}
+
+.slider {
+    margin: 8px;
+}
+
+.slider-val {
+    display: block;
+    text-align: center;
+}
+
+.skill-marker {
+    height: 25px;
+    width: 25px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    transition: all 1s ease 0s;
+
+}
+
+.skill {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-transform: capitalize;
+}
+
+#skill1-label {
+    width: 100%;
+    text-align: center;
+
+}
+
+#skill2-label {
+    width: 500px;
+    text-align: left;
+}
+
+#skill3-label {
+    width: 500px;
+    text-align: left;
+}
+
+#skill4-label {
+    width: 210px;
+    text-align: right;
+}
+
+#skill5-label {
+    width: 295px;
+    text-align: right;
+}
